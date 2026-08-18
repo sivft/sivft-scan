@@ -1,5 +1,9 @@
 # sivft-scan
 
+[![CI](https://github.com/sivft/sivft-scan/actions/workflows/ci.yml/badge.svg)](https://github.com/sivft/sivft-scan/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/sivft/sivft-scan)](LICENSE)
+[![Go Version](https://img.shields.io/badge/Go-1.22+-00ADD8)](https://go.dev/dl/)
+
 A CLI that tells you which of your logs are wasting money.
 
 **sivft-scan runs entirely on your machine. It makes no network calls, sends no data anywhere, and only writes the report file you ask for.**
