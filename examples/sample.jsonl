@@ -1,0 +1,30 @@
+{"level":"INFO","service":"nginx","http.status_code":200,"message":"GET / 200 1.2ms"}
+{"level":"INFO","service":"nginx","http.status_code":200,"message":"GET /assets/app.js 200 2.1ms"}
+{"level":"INFO","service":"nginx","http.status_code":404,"message":"GET /missing.css 404 0.5ms"}
+{"level":"DEBUG","service":"payments","message":"parsing request body"}
+{"level":"TRACE","service":"payments","message":"span started trace_id=xyz"}
+{"level":"ERROR","service":"payments","message":"connection refused to postgres:5432"}
+{"level":"WARN","service":"auth","message":"slow query detected 500ms"}
+{"level":"INFO","service":"kubelet","kubernetes.namespace_name":"kube-system","message":"Readiness probe failed: HTTP probe failed"}
+{"level":"INFO","service":"kubelet","kubernetes.namespace_name":"kube-system","message":"Container runtime network ready"}
+{"level":"INFO","service":"orders","path":"/healthz","http.status_code":200,"message":"health check passed"}
+{"level":"INFO","service":"orders","path":"/readyz","http.status_code":200,"message":"ready"}
+{"level":"INFO","service":"redis","message":"DB 0: 42 keys"}
+{"level":"INFO","service":"postgres","message":"checkpoint starting: time"}
+{"level":"INFO","service":"postgres","message":"autovacuum: table public.orders"}
+{"level":"INFO","service":"api","request_id":"abc-123","trace_id":"t-99","message":"handling request"}
+{"level":"INFO","service":"api","message":"Completed 200 OK in 12ms"}
+{"level":"INFO","service":"cron","message":"job 'nightly-backup' started"}
+{"level":"INFO","service":"otel","message":"collector starting"}
+{"level":"INFO","service":"app","message":"GET /static/app.js 200 2ms"}
+{"level":"INFO","service":"app","message":"GET /healthz 200 1ms"}
+{"level":"ERROR","service":"billing","message":"payment gateway timeout"}
+{"level":"INFO","service":"app","message":"POST /api/orders 201 45ms"}
+{"level":"INFO","service":"audit","message":"audit success: user 42 updated role"}
+{"level":"WARN","service":"app","message":"cache miss for key user:42"}
+{"level":"INFO","service":"app","message":"heartbeat sent"}
+{"level":"INFO","service":"systemd","message":"Started Session 4711 of user root."}
+{"level":"INFO","service":"docker","message":"container f8a2 started"}
+{"level":"INFO","service":"spring","message":"Started Application in 4.2 seconds"}
+{"level":"DEBUG","service":"spring","message":"Resolving template view"}
+{"level":"INFO","service":"django","message":"GET /admin/ 200 10ms"}
