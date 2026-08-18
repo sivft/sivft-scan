@@ -4,6 +4,8 @@ A CLI that tells you which of your logs are wasting money.
 
 **sivft-scan runs entirely on your machine. It makes no network calls, sends no data anywhere, and only writes the report file you ask for.**
 
+Licensed under the [MIT License](LICENSE).
+
 ## Install
 
 ```sh
